@@ -5,7 +5,15 @@
 }
 
 :root {
-    color-scheme: light;
+   color-scheme: light only;
+}
+
+html {
+    background:#ffffff !important;
+}
+
+body {
+    background:#ffffff !important;
 }
 
 * {
