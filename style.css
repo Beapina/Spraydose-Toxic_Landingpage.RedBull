@@ -1768,36 +1768,3 @@ body.menu-open {
 
 }
 
-/* FORCE LIGHT AREAS ON MOBILE */
-@media (max-width: 900px) {
-  .nav {
-    background: linear-gradient(#f0f0f0, #f0f0f0) !important;
-    color: #000 !important;
-  }
-
-  .workshops,
-  .gallery {
-    background: linear-gradient(#efefef, #efefef) !important;
-    color: #000 !important;
-  }
-
-  .event-card,
-  .product-card {
-    background: linear-gradient(#ffffff, #ffffff) !important;
-    color: #000 !important;
-  }
-
-  .workshops h2,
-  .workshops h3,
-  .workshops p,
-  .workshops b,
-  .gallery h2,
-  .gallery p,
-  .event-card h3,
-  .event-card p,
-  .event-card b,
-  .product-card h3,
-  .product-card p {
-    color: #000 !important;
-  }
-}
